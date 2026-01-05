@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website Brand | Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/service1.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="background-image: url('images/hero-placeholder.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <header id="main-header" class="frosted sharp">
+    <div class="container header-flex">
+      <div class="brand">My Website Brand</div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
+      <button id="hamburger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Services Section: Honeycomb Grid -->
+    <section class="services frosted sharp">
+      <h2>Our Services</h2>
+      <div class="honeycomb-grid sharp">
+        <!-- Row 1 -->
+        <div class="honey-row">
+          <div class="hex-card sharp" data-service="1" tabindex="0" role="button" aria-label="Cyber Security Consultancy">
+            <div class="hex-bg sharp" style="background-image:url('images/service1.jpg')"></div>
+            <div class="hex-overlay frosted sharp"></div>
+            <div class="hex-content sharp">
+              <div class="hex-title sharp">Cyber Security Consultancy</div>
+              <div class="hex-details sharp">
+                <p>Full-service project delivery, dedicated project manager, clear timelines.</p>
+                <ul>
+                  <li>Initial consultation</li>
+                  <li>Scheduling</li>
+                  <li>Milestones</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="hex-card sharp" data-service="2" tabindex="0" role="button" aria-label="Network Hardening & Monitoring">
+            <div class="hex-bg sharp" style="background-image:url('images/service2.jpg')"></div>
+            <div class="hex-overlay frosted sharp"></div>
+            <div class="hex-content sharp">
+              <div class="hex-title sharp">Network Hardening & Monitoring</div>
+              <div class="hex-details sharp">
+                <p>Placeholder description.</p>
+                <ul>
+                  <li>Firewall setup</li>
+                  <li>Intrusion detection</li>
+                  <li>24/7 monitoring</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 (offset for honeycomb) -->
+        <div class="honey-row honey-row-offset">
+          <div class="hex-card sharp" data-service="3" tabindex="0" role="button" aria-label="Cloud Migration & Backup">
+            <div class="hex-bg sharp" style="background-image:url('images/service3.jpg')"></div>
+            <div class="hex-overlay frosted sharp"></div>
+            <div class="hex-content sharp">
+              <div class="hex-title sharp">Cloud Migration & Backup</div>
+              <div class="hex-details sharp">
+                <p>Placeholder description.</p>
+                <ul>
+                  <li>Cloud strategy</li>
+                  <li>Data backup solutions</li>
+                  <li>Disaster recovery</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer frosted sharp">
+    <div class="footer-brand">My Website Brand</div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/willie.manyame" class="social-icon sharp" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.me/263787810892" class="social-icon sharp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" class="social-icon sharp" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:info@casadewillmiamie.com" class="social-icon sharp" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <div class="footer-copy">&copy; 2026 My Website Brand. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website Brand | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/hero-placeholder.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="main-header" class="frosted sharp">
+    <div class="container header-flex">
+      <div class="brand">My Website Brand</div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
+      <button id="hamburger" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero sharp">
+      <div class="hero-bg sharp">
+        <img src="images/hero-placeholder.jpg" alt="Cybersecurity Miami" class="hero-img sharp">
+        <div class="hero-overlay sharp"></div>
+      </div>
+      <div class="hero-content fade-in sharp">
+        <h1>Welcome to CASA-DE-WILL-MIAMIE</h1>
+        <p>Trusted services across Miami with care, professionalism, and a personal touch.</p>
+        <a href="services.html" class="explore-btn sharp">Explore Services</a>
+      </div>
+    </section>
+
+    <!-- Immersive Panels -->
+    <section class="panel parallax sharp" style="background-image:url('images/panel1.jpg')">
+      <div class="panel-overlay sharp"></div>
+      <div class="panel-content fade-in sharp">
+        <h2>Cybersecurity Expertise</h2>
+        <p>Protecting your digital world with advanced solutions.</p>
+      </div>
+    </section>
+    <section class="panel parallax sharp" style="background-image:url('images/panel2.jpg')">
+      <div class="panel-overlay sharp"></div>
+      <div class="panel-content fade-in sharp">
+        <h2>Miami’s Trusted Team</h2>
+        <p>Local professionals, global standards.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer frosted sharp">
+    <div class="footer-brand">My Website Brand</div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/willie.manyame" class="social-icon sharp" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.me/263787810892" class="social-icon sharp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" class="social-icon sharp" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:info@casadewillmiamie.com" class="social-icon sharp" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <div class="footer-copy">&copy; 2026 My Website Brand. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
+</body>
+</html>
